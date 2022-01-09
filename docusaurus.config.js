@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Beatriz Oliveira',
+  tagline: 'software engineer at @entriatech',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/me.png',
+  organizationName: 'biantris', // Usually your GitHub org/user name.
+  projectName: 'my-website', // Usually your repo name.
 
   presets: [
     [
@@ -43,22 +43,29 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Home 🏠',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/me.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Contents',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/tags', label: 'Tags', position: 'left'},
+          {to: '/about', label: 'About', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/biantris',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://twitter.com/biantris_',
+            label: 'Twitter',
             position: 'right',
           },
         ],
@@ -67,25 +74,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Suport me',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                html: `<a href="https://www.patreon.com/beatrizoliveira" target="_blank"><img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white" alt="Become my Patreon" style="height: 60px !important;width: 217px !important;" ></a>`,
               },
-            ],
+            ],  
           },
           {
-            title: 'Community',
+            title: 'Social',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
@@ -93,11 +91,11 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Contact',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Email',
+                to: 'mailto: anabeatrizxoliveira@gmail.com',
               },
               {
                 label: 'GitHub',
@@ -106,7 +104,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Beatriz Oliveira, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

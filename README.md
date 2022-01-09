@@ -1,4 +1,6 @@
-# Website
+# My Website
+
+![screely-1641755154717](https://user-images.githubusercontent.com/65451957/148696887-44b5f14c-b018-4229-92a3-5500664a75cb.png)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 

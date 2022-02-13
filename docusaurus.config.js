@@ -57,7 +57,7 @@ const config = {
           // },
           {to: '/blog', label: 'Blog', position: 'left'},
           // {to: '/tags', label: 'Tags', position: 'left'},
-          {to: '/about', label: 'About', position: 'left'},
+          // {to: '/about', label: 'About', position: 'left'},
           {
             href: 'https://github.com/biantris',
             label: 'GitHub',

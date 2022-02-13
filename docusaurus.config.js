@@ -49,14 +49,14 @@ const config = {
           src: 'img/me.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Contents',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Contents',
+          // },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/tags', label: 'Tags', position: 'left'},
+          // {to: '/tags', label: 'Tags', position: 'left'},
           {to: '/about', label: 'About', position: 'left'},
           {
             href: 'https://github.com/biantris',

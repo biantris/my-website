@@ -3,10 +3,7 @@
 ### 🚧 WIP 🚧
 
 ### Screenshots
-
-![screely-1641755154717](https://user-images.githubusercontent.com/65451957/148696887-44b5f14c-b018-4229-92a3-5500664a75cb.png)
-
-![image](https://user-images.githubusercontent.com/65451957/148697029-33fdd1a8-c336-42a5-9e01-54d1491e7bc7.png)
+[wip]
 
 ### Lighthouse
 
